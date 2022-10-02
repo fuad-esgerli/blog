@@ -50,7 +50,7 @@ color: var(--orange);
     color: var(--light-color);
     font-size: 1.7rem;
     text-transform: capitalize;
-     gap: 1rem ;
+     padding: 1rem ;
 }
 .header .navbar a:hover {
     color: var(--orange);
@@ -279,7 +279,7 @@ section {
     background: var(--light-color) ;
     color: #fff;
     border-radius: .5rem;
-    padding: 5rem;
+    padding: 2rem;
 }
 .container .sidebar .box .category a:hover,
 .container .sidebar .box .category a:hover  span {
@@ -388,6 +388,9 @@ padding: 1rem;
     color: #fff;
     text-align: center;
  }
+ .footer .folow a:hover {
+    background: var(--orange);
+ }
 
 
 
@@ -457,6 +460,10 @@ padding: 1rem;
      }
      .container .posts-container .post .image {
         height: 30rem;
+     }
+     .footer {
+        text-align: center;
+        flex-flow: column;
      }
 }
 @media (max-width:450) {
